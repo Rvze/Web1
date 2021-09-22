@@ -1,0 +1,15 @@
+.content{
+    padding: 20px;
+    display: table;
+    text-align: center;
+    margin: 30px auto auto;
+    border-radius: 10px;
+    width: 1500px;
+}
+
+.x::first-letter {
+    font-size: 100px;
+    font-weight: bold;
+    color: #129686;
+
+}

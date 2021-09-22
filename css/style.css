@@ -1,0 +1,125 @@
+header {
+    margin: 10px 0px 0px 0px;
+    font-family: Arial, serif;
+    color: #181717;
+    text-align: center;
+
+}
+
+img[src $=".png"] {
+    width: 35px;
+    height: 35px;
+}
+
+body {
+    background-repeat: no-repeat;
+    background-image: url("../img/mount.jpg");
+}
+
+button {
+    color: black;
+    margin-left: 8px;
+    border-radius: 6px;
+    letter-spacing: 2px;
+    display: inline-block;
+    background-color: white;
+    border: 2px solid black;
+}
+
+.mobile-table {
+    margin: auto;
+    margin-top: 20px;
+    width: 900px;
+    background-color: rgba(179, 153, 241, 0.7);
+}
+
+.table {
+    overflow-y: scroll;
+}
+
+th {
+    border: 1px solid black;
+}
+
+#coordinate {
+    float: left;
+    background-color: rgba(179, 153, 241, 0.51);
+}
+
+.block-items {
+    margin-top: 20px;
+}
+
+input {
+    font-size: 20px;
+}
+
+td {
+    font-size: 20px;
+
+}
+
+input[type = checkbox] {
+    float: left;
+    margin: auto;
+}
+
+.item-y {
+    margin-top: 20px;
+}
+
+.item-radius {
+    margin-top: 20px;
+}
+
+button {
+    margin-top: 20px;
+}
+
+table.item-x {
+    width: 600px;
+    height: 100px;
+    margin: auto;
+    background-color: #b399f1;
+    box-shadow: 0 0 10px 1px black;
+
+
+}
+
+.x {
+    margin-bottom: 2px;
+    box-sizing: border-box;
+    width: 30px;
+    padding: 5px;
+
+}
+
+label {
+    font-size: 25px;
+    margin: auto;
+}
+
+p::first-line {
+    font-style: italic;
+}
+
+/*селектор атрибута */
+/*option[value] {*/
+/*    color: blue;*/
+/*}*/
+
+
+/*!*селектор псевдоэлементов*!*/
+/*th::first-line{*/
+/*    color : red;*/
+
+/*}*/
+
+
+/*.form{*/
+
+/* !*   border: 2px solid #1d899f;*/
+/*    height: 200px;*/
+/*    margin-left: 600px;*/
+/*    margin-right: 600px;*/
+/*}*/
