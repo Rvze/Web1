@@ -5,7 +5,7 @@ header {
     text-align: center;
 
 }
-
+/*селектор по атрибуту*/
 img[src $=".png"] {
     width: 35px;
     height: 35px;
@@ -25,10 +25,9 @@ button {
     background-color: white;
     border: 2px solid black;
 }
-
+/*селектор по классу*/
 .mobile-table {
-    margin: auto;
-    margin-top: 20px;
+    margin: 20px auto auto;
     width: 900px;
     background-color: rgba(179, 153, 241, 0.7);
 }
@@ -40,7 +39,7 @@ button {
 th {
     border: 1px solid black;
 }
-
+/*селектор по id*/
 #coordinate {
     float: left;
     background-color: rgba(179, 153, 241, 0.51);
@@ -98,7 +97,7 @@ label {
     font-size: 25px;
     margin: auto;
 }
-
+/*псевдоэлемент*/
 p::first-line {
     font-style: italic;
 }

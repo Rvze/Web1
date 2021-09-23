@@ -5,7 +5,7 @@ if (!key_exists('table', $_SESSION) || sizeof($_SESSION["table"]) == 0) {
 }
 
 ?>
-<html lang="ru">
+<html lang="eng">
 <head>
     <meta charset="UTF-8">
     <title>Лабораторная работа №1</title>

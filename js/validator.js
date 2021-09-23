@@ -19,10 +19,10 @@ function validate() {
         document.getElementsByClassName('r')[0].style.background = 'red';
         alert("Enter r!");
     } else {
-        if (isNaN(y) || y >= 5 || y <= -5) {
+        if (isNaN(y) || y > 6 || y < -6) {
             document.getElementsByClassName('y')[0].style.background = 'red';
             alert("y must be number in range [-5;5]");
-        } else if (isNaN(r) || r >= 5 || r <= 2) {
+        } else if (isNaN(r) || r > 6 || r < 1) {
             document.getElementsByClassName('r')[0].style.background = 'red';
             alert("r must be number in range [2;5]")
         } else if (isNaN(x) || x <= -5 || x >= 3) {
